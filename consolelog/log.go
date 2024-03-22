@@ -22,7 +22,7 @@ func (cl *ConsoleLog) Waring(msg string) {
 }
 
 func (cl *ConsoleLog) Waringf(msg string, a ...any) {
-	color.Red.Printf("WARING: "+msg+"\n", a...)
+	color.Yellow.Printf("WARING: "+msg+"\n", a...)
 }
 
 func (cl *ConsoleLog) Info(msg string) {
